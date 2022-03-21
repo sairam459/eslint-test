@@ -22,7 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "./node_modules/.bin/eslint ."
+    "lint": "./node_modules/.bin/eslint .",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.js": "./node_modules/.bin/eslint"
@@ -46,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "lint-staged": "^12.3.7"
+    "lint-staged": "^12.3.7",
+    "husky": "^7.0.0"
   }
 }
